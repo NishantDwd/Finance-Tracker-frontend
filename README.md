@@ -6,7 +6,7 @@ A full-stack personal finance tracker that helps you manage budgets, transaction
 
 ## 🔗 Live Demo
 
-- **Frontend:** [https://finance-tracker-frontend-rxcv.onrender.com](https://finance-tracker-frontend-rxcv.onrender.com)
+- **Frontend:** [https://finance-tracker-frontend-rxcv.onrender.com](https://finance-tracker-sandy-six.vercel.app/)
 - **Backend:** Hosted on Render
 
 ---
