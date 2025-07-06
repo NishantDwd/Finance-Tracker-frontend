@@ -1,96 +1,71 @@
-💸 Finance Tracker
-A full-stack personal finance tracker that helps you manage budgets, transactions, categories, and track your analytics — built using Next.js, Node.js, and MongoDB.
+# 💸 Finance Tracker
 
-🔗 Live Demo
-Frontend: https://finance-tracker-frontend-rxcv.onrender.com/
-Backend API: Hosted on Render 
+A full-stack personal finance tracker that helps you manage budgets, transactions, categories, and track your analytics — built using **Next.js**, **Node.js**, and **MongoDB**.
 
-🛠️ Tech Stack
-Layer	Technology
-Frontend	Next.js, Tailwind CSS, TypeScript
-Backend	Express.js, Node.js
-Database	MongoDB (via Mongoose)
-Hosting	Render
-API Comm	Axios
+---
 
-📁 Repositories
-Frontend Repo: Finance-Tracker-frontend
+## 🔗 Live Demo
 
-Backend Repo: Finance-Tracker
+- **Frontend:** [https://finance-tracker-frontend-rxcv.onrender.com](https://finance-tracker-frontend-rxcv.onrender.com)
+- **Backend:** Hosted on Render
 
-✨ Features
-✅ Add, view, and delete transactions
+---
 
-📊 Track spending by category and date
+## 🛠️ Tech Stack
 
-🧮 Visual analytics for income/expenses
+| Layer     | Technology                          |
+|-----------|--------------------------------------|
+| Frontend  | Next.js, Tailwind CSS, TypeScript    |
+| Backend   | Express.js, Node.js                  |
+| Database  | MongoDB (via Mongoose)               |
+| Hosting   | Render                               |
+| API Comm  | Axios                                |
 
-📁 Budget management per month
+---
 
-🗃️ Category organization
+## 📁 Repositories
 
-⚡ Responsive and fast UI
+- 🔹 **Frontend Repo:** [Finance-Tracker-frontend](https://github.com/NishantDwd/Finance-Tracker-frontend)
+- 🔹 **Backend Repo:** [Finance-Tracker](https://github.com/NishantDwd/Finance-Tracker)
 
-⚙️ Getting Started
-🔌 Backend Setup
-Clone the backend repo:
+---
 
-bash
-Copy
-Edit
-git clone https://github.com/NishantDwd/Finance-Tracker.git
-cd Finance-Tracker
-Install dependencies:
+## ✨ Features
 
-bash
-Copy
-Edit
-npm install
-Create a .env file:
+- ✅ Add, view, and delete transactions  
+- 📊 Track spending by category and date  
+- 🧮 Visual analytics for income/expenses  
+- 📁 Budget management per month  
+- 🗃️ Category organization  
+- ⚡ Responsive and fast UI  
 
-env
-Copy
-Edit
-MONGODB_URI=your_mongodb_connection_string
-PORT=5000
-Start the server:
+---
 
-bash
-Copy
-Edit
-npm run dev
-The backend will run at http://localhost:5000/api
+## ⚙️ Getting Started
 
-🖥️ Frontend Setup
-Clone the frontend repo:
+### 🔌 Backend Setup
 
-bash
-Copy
-Edit
-git clone https://github.com/NishantDwd/Finance-Tracker-frontend.git
-cd Finance-Tracker-frontend
-Install dependencies:
+1. **Clone the backend repo:**
 
-bash
-Copy
-Edit
-npm install
-Create a .env.local file:
+   ```bash
+   git clone https://github.com/NishantDwd/Finance-Tracker.git
+   cd Finance-Tracker
+2. **Install dependencies:**
+    npm install
 
-env
-Copy
-Edit
-NEXT_PUBLIC_API_URL=http://localhost:5000/api
-Run the development server:
+3. Create a .env file with MongoDB URI
 
-bash
-Copy
-Edit
-npm run dev
-Frontend will be available at http://localhost:3000
+4. Start the Server
+   node index.js
 
-📌 Deployment
-Frontend: Deployed on Render, connected to GitHub for auto-deploy.
+### Frontend Setup
 
-Backend: Also hosted on Render with environment variables set securely.
+1. **Clone the Frontend Repo**
 
+   git clone https://github.com/NishantDwd/Finance-Tracker-frontend.git
+   cd Finance-Tracker-frontend
+
+2. npm install and npm run dev
+   
+3. Create .env file for storing Backend deployed URL
+   NEXT_PUBLIC_API_URL=http://localhost:5000/api
