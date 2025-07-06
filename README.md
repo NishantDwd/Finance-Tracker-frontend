@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+💸 Finance Tracker
+A full-stack personal finance tracker that helps you manage budgets, transactions, categories, and track your analytics — built using Next.js, Node.js, and MongoDB.
 
-## Getting Started
+🔗 Live Demo
+Frontend: https://finance-tracker-frontend-rxcv.onrender.com/
+Backend API: Hosted on Render 
 
-First, run the development server:
+🛠️ Tech Stack
+Layer	Technology
+Frontend	Next.js, Tailwind CSS, TypeScript
+Backend	Express.js, Node.js
+Database	MongoDB (via Mongoose)
+Hosting	Render
+API Comm	Axios
 
-```bash
+📁 Repositories
+Frontend Repo: Finance-Tracker-frontend
+
+Backend Repo: Finance-Tracker
+
+✨ Features
+✅ Add, view, and delete transactions
+
+📊 Track spending by category and date
+
+🧮 Visual analytics for income/expenses
+
+📁 Budget management per month
+
+🗃️ Category organization
+
+⚡ Responsive and fast UI
+
+⚙️ Getting Started
+🔌 Backend Setup
+Clone the backend repo:
+
+bash
+Copy
+Edit
+git clone https://github.com/NishantDwd/Finance-Tracker.git
+cd Finance-Tracker
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Create a .env file:
+
+env
+Copy
+Edit
+MONGODB_URI=your_mongodb_connection_string
+PORT=5000
+Start the server:
+
+bash
+Copy
+Edit
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The backend will run at http://localhost:5000/api
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🖥️ Frontend Setup
+Clone the frontend repo:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+bash
+Copy
+Edit
+git clone https://github.com/NishantDwd/Finance-Tracker-frontend.git
+cd Finance-Tracker-frontend
+Install dependencies:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+bash
+Copy
+Edit
+npm install
+Create a .env.local file:
 
-## Learn More
+env
+Copy
+Edit
+NEXT_PUBLIC_API_URL=http://localhost:5000/api
+Run the development server:
 
-To learn more about Next.js, take a look at the following resources:
+bash
+Copy
+Edit
+npm run dev
+Frontend will be available at http://localhost:3000
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📌 Deployment
+Frontend: Deployed on Render, connected to GitHub for auto-deploy.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Backend: Also hosted on Render with environment variables set securely.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
